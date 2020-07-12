@@ -85,7 +85,10 @@ class LogisticRegression:
             dw = grads["dw"]
             db = grads["db"]
 
-            # update rule
+            # For a parameter theta, the update rule is:
+            # theta = theta − alpha * dev(theta),
+            # where alpha is the learning rate.
+            # Update rule
             w = w - learning_rate * dw
             b = b - learning_rate * db
 

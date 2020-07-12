@@ -7,18 +7,19 @@ Python logistic regression (using a perceptron) classifier to recognize cats.
 ![Math formulas for logistic regression](images/math.png)
 
 ## Installation
-
 - pip:
 ```bash
 pip3 install -r requirements.txt
 ```
+
+or
+
 - pipenv:
 ```bash
 pipenv install
 ```
 
 ## How to run it
-
 If you're not using `pipenv`
 ```bash
 python3 logistic_regression.py
